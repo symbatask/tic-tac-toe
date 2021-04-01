@@ -1,0 +1,62 @@
+body {
+  background: #285CA1;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.board {
+  width: 480px;
+  height: 480px;
+  background: #76AFD6;
+  border-radius: 100%;
+  border: 1px solid #0D152B;
+  box-shadow: -2px 20px 0 -3px #4283C4, -20px 20px #0D152B;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.board button{
+  width: 33.3333%;
+  height: 33.3333%;
+}
+.board-box {
+  width: 370px;
+  height: 370px;
+  box-shadow: -10px 5px 0 -2px;
+  background: #D3E2EA;
+  border-radius: 20px;
+  border: 1px solid #0D152B;
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.styles-btn {
+  background: #76AFD6;
+  font-size: 4em;
+  font-family: 'Press Start 2P', cursive;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.board-btn {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.board-result {
+  text-align: center;
+  margin-top: 50px;
+}
+.results {
+  text-align: center;
+}
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
